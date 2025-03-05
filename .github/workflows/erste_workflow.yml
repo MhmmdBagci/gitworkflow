@@ -12,6 +12,6 @@ jobs:
           NAME: "Muhammed"
         run: |
           echo "Hello World"
-          echo $ {{ env.NAME}}
+          echo $ {{ env.NAME }}
 
 
