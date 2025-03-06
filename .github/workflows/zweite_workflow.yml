@@ -17,4 +17,4 @@ jobs:
         run: 7z a introduction.7z introduction/ # meine repo wird in eine 7zip datei komprimiert
 
       - name: Abschluss
-        run: echo "Vorgang ABgeschlossen" # meldung für den abschluss das es geklappt hat
+        run: echo "Vorgang Abgeschlossen" # meldung für den abschluss das es geklappt hat
