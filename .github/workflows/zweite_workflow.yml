@@ -14,7 +14,7 @@ jobs:
         run: git clone https://github.com/MhmmdBagci/Introduction.git # clone befehl meiner repo
 
       - name: 7zip komprimierung # nur der name 
-        run: 7z a introduction.7z introduction/ # meine repo wird in eine 7zip datei komprimiert
+        run: 7z a introduction.7z Introduction/ # meine repo wird in eine 7zip datei komprimiert
 
       - name: Abschluss
         run: echo "Vorgang Abgeschlossen" # meldung für den abschluss das es geklappt hat
