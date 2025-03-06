@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest # ubuntu maschine/Umgebung
     steps:
       - name: 7zip # ist nur der name
-        run: sudo apt update && install -y 7z -y p7zip-full # update & instalation 
+        run: sudo apt update && sudo apt install -y p7zip-full # update & instalation 
 
       - name: Cloned Introduction Repository
         run: git clone https://github.com/MhmmdBagci/Introduction.git # clone befehl meiner repo
